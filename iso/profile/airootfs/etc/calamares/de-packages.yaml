@@ -1,0 +1,59 @@
+- name: "KDE Plasma"
+  description: "Full KDE Plasma desktop (Wayland, recommended)"
+  selected: true
+  critical: false
+  packages:
+    - plasma-desktop
+    - plasma-nm
+    - plasma-pa
+    - plasma-systemmonitor
+    - plasma-workspace
+    - plasma-browser-integration
+    - sddm
+    - sddm-kcm
+    - konsole
+    - dolphin
+    - kate
+    - okular
+    - spectacle
+    - ark
+    - kwalletmanager
+    - kwallet-pam
+    - kscreen
+    - powerdevil
+    - bluedevil
+    - discover
+    - plasma-firewall
+    - filelight
+
+- name: "GNOME"
+  description: "GNOME desktop — familiar for macOS users"
+  selected: false
+  critical: false
+  packages:
+    - gnome
+    - gnome-extra
+    - gdm
+    - gnome-terminal
+    - nautilus
+    - gnome-tweaks
+    - gnome-shell-extensions
+
+- name: "Hyprland"
+  description: "Hyprland — modern Wayland tiling compositor"
+  selected: false
+  critical: false
+  packages:
+    - hyprland
+    - waybar
+    - wofi
+    - alacritty
+    - dunst
+    - swww
+    - grim
+    - slurp
+    - wl-clipboard
+    - xdg-desktop-portal-hyprland
+    - polkit-kde-agent
+    - qt5-wayland
+    - qt6-wayland
