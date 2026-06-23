@@ -1,0 +1,216 @@
+# =============================================================================
+# Haifa OS — Live ISO Package List (x86_64)
+# =============================================================================
+
+# --- Kernel ---
+linux-cachyos
+linux-cachyos-headers
+linux-firmware
+linux-firmware-marvell
+amd-ucode
+intel-ucode
+sof-firmware
+
+# --- Base system ---
+base
+sudo
+zsh
+bash
+nano
+vim
+git
+wget
+curl
+less
+man-db
+man-pages
+diffutils
+rsync
+tmux
+htop
+fastfetch
+arch-install-scripts
+
+# --- Boot / initramfs ---
+mkinitcpio
+mkinitcpio-archiso
+mkinitcpio-nfs-utils
+grub
+efibootmgr
+edk2-shell
+refind
+syslinux
+memtest86+
+memtest86+-efi
+squashfs-tools
+
+# --- Networking ---
+networkmanager
+nm-connection-editor
+iwd
+iw
+openssh
+dhcpcd
+modemmanager
+dnsmasq
+ndisc6
+systemd-resolvconf
+reflector
+nmap
+tcpdump
+bind
+ldns
+
+# --- Filesystems ---
+btrfs-progs
+bcachefs-tools
+cryptsetup
+dosfstools
+e2fsprogs
+exfatprogs
+f2fs-tools
+fatresize
+jfsutils
+lvm2
+mdadm
+mtools
+nfs-utils
+nilfs-utils
+ntfs-3g
+udftools
+xfsprogs
+
+# --- Disk & storage tools ---
+gptfdisk
+parted
+hdparm
+nvme-cli
+smartmontools
+ddrescue
+testdisk
+partclone
+partimage
+clonezilla
+dmraid
+lsscsi
+sdparm
+sg3_utils
+mmc-utils
+pv
+fsarchiver
+gpart
+nbd
+
+# --- Hardware / system ---
+dmidecode
+ethtool
+libfido2
+libusb-compat
+pcsclite
+tpm2-tools
+tpm2-tss
+usbutils
+usb_modeswitch
+usbmuxd
+bolt
+ppp
+
+# --- Wireless ---
+broadcom-wl
+b43-fwcutter
+wireless-regdb
+wpa_supplicant
+
+# --- VM / hypervisor support ---
+hyperv
+open-vm-tools
+qemu-guest-agent
+virtualbox-guest-utils-nox
+
+# --- Accessibility ---
+brltty
+espeakup
+terminus-font
+livecd-sounds
+
+# --- Terminal emulator info ---
+foot-terminfo
+kitty-terminfo
+rxvt-unicode-terminfo
+
+# --- Display server ---
+xorg-server
+
+# --- KDE Plasma (live session) ---
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-systemmonitor
+plasma-workspace
+plasma-browser-integration
+sddm
+sddm-kcm
+konsole
+dolphin
+kate
+okular
+spectacle
+ark
+kwalletmanager
+kwallet-pam
+kscreen
+powerdevil
+bluedevil
+discover
+plasma-firewall
+filelight
+
+# --- Audio ---
+pipewire
+pipewire-alsa
+pipewire-pulse
+pipewire-jack
+wireplumber
+alsa-utils
+
+# --- Fonts ---
+noto-fonts
+noto-fonts-emoji
+noto-fonts-cjk
+ttf-liberation
+ttf-dejavu
+ttf-font-awesome
+
+# --- Gaming ---
+steam
+lutris
+gamemode
+lib32-gamemode
+mangohud
+lib32-mangohud
+gamescope
+wine
+winetricks
+
+# --- GPU drivers (open-source) ---
+mesa
+lib32-mesa
+vulkan-radeon
+lib32-vulkan-radeon
+vulkan-intel
+lib32-vulkan-intel
+xf86-video-amdgpu
+xf86-video-intel
+
+# --- Apple device support ---
+libimobiledevice
+ifuse
+
+# --- Calamares installer ---
+calamares
+
+# --- Misc system ---
+openpgp-card-tools
+sequoia-sq
+xdg-utils
+open-iscsi

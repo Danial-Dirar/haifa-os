@@ -1,0 +1,19 @@
+pkgname=haifaos-branding
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Branding assets and OS identity for Haifa OS"
+arch=('any')
+license=('MIT')
+depends=()
+source=()
+sha256sums=()
+
+package() {
+  install -Dm644 files/etc/os-release "$pkgdir/etc/os-release"
+  install -Dm644 files/etc/issue      "$pkgdir/etc/issue"
+  install -Dm644 files/etc/motd       "$pkgdir/etc/motd"
+
+  # TODO: replace with real logo once artwork/ is finalized
+  # install -Dm644 files/usr/share/pixmaps/haifaos.png \
+  #   "$pkgdir/usr/share/pixmaps/haifaos.png"
+}

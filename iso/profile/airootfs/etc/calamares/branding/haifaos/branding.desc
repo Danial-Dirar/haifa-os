@@ -1,0 +1,27 @@
+componentName: haifaos
+
+strings:
+  productName:          "Haifa OS"
+  shortProductName:     "Haifa OS"
+  version:              "Rolling"
+  shortVersion:         "Rolling"
+  versionedName:        "Haifa OS (Rolling)"
+  shortVersionedName:   "Haifa OS"
+  bootloaderEntryName:  "HaifaOS"
+  productUrl:           "https://github.com/Danial-Dirar/haifa-os"
+  supportUrl:           "https://github.com/Danial-Dirar/haifa-os/issues"
+  knownIssuesUrl:       "https://github.com/Danial-Dirar/haifa-os/issues"
+  releaseNotesUrl:      "https://github.com/Danial-Dirar/haifa-os/releases"
+
+images:
+  productLogo:    "haifaos.svg"
+  productIcon:    "haifaos.svg"
+  productWelcome: "haifaos.svg"
+
+slideshow: show.qml
+
+style:
+  sidebarBackground:   "#1a1a2e"
+  sidebarText:         "#e0e0e0"
+  sidebarTextSelect:   "#e94560"
+  sidebarTextHighlight: "#e94560"

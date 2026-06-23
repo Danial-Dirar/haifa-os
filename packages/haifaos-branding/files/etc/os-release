@@ -1,0 +1,9 @@
+NAME="Haifa OS"
+PRETTY_NAME="Haifa OS"
+ID=haifaos
+ID_LIKE=arch
+VERSION="0.1"
+VERSION_ID="0.1"
+HOME_URL="https://github.com/Danial-Dirar/haifa-os"
+SUPPORT_URL="https://github.com/Danial-Dirar/haifa-os/issues"
+BUG_REPORT_URL="https://github.com/Danial-Dirar/haifa-os/issues"
